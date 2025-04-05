@@ -18,7 +18,13 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of ppmm is to ...
+The ppmm package implements the proxy pattern-mixture model (PPMM) for means, proportions, and linear regression coefficients as described in:
+
+(means) Andridge RR, Little RJA (2011). Proxy pattern-mixture analysis for survey nonresponse. Journal of Official Statistics, 27; 153-180.
+
+(proportions) Andridge RR, Little RJA. (2020) Proxy pattern-mixture analysis for a binary variable subject to nonresponse. Journal of Official Statistics, 36; 703-728.
+
+(regression coefficients) West BT, Little RJ, Andridge RR, Boonstra P, Ware EB, Pandit A, Alvarado-Leiton F (2021). Assessing selection bias in regression coefficients estimated from nonprobability samples with applications to genetics and demographic surveys. Annals of Applied Statistics, 15; 1556-1581.
 
 ## Installation
 
@@ -26,13 +32,13 @@ You can install the development version of ppmm from [GitHub](https://github.com
 
 ``` r
 # install package `ppmm`
-devtools::install_github("rsong2022/ppmm")
+devtools::install_github("randridge/ppmm")
 library(ppmm)
 ```
 
 ## Example
 
-NEED MODIFY
+NEEDS MODIFYING
 
 This is a basic example which shows you how to solve a common problem:
 
@@ -48,11 +54,3 @@ summary(cars)
 ```
 
 You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
