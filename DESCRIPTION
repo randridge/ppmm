@@ -1,0 +1,19 @@
+Package: ppmm
+Title: Function of Proxy pattern-mixture models (PPMM) (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: c(person("Rebecca", "Andridge", email = "andridge.1@osu.edu", role = c("aut","cre"), comment = c(ORCID = "0000-0001-9991-9647")),
+             person("Ruoqi", "Song", email = "song.1344@osu.edu", role = c("aut"), comment = c(ORCID = "0000-0001-5771-2103")),
+             person("Brady", "West", email = "bwest@umich.edu", role = c("aut"), comment = c(ORCID = "0000-0003-0160-1388")))
+Description: An easy-to-install and user-friendly tool for conducting sensitivity analysis on microdata or summary statistics, supporting both continuous and binary outcomes. The tool leverages a proxy pattern-mixture model framework and offers flexibility to perform analyses using either Maximum Likelihood Estimation (MLE) or Bayesian inference (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    fastDummies,
+    MASS,
+    MCMCpack,
+    mnormt,
+    mvtnorm,
+    stats,
+    stringr
